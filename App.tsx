@@ -332,12 +332,13 @@ function App() {
         </div>
       </Section>
 
-      {/* Video 6: Vimeo (Previously YouTube) */}
+      {/* Video 6: YouTube - Fixed */}
       <Section darker className="text-center">
          <h3 className="text-2xl md:text-3xl font-serif text-spiritual-100 mb-8 font-medium">דוגמה נוספת לחיבור רוחני</h3>
          <VideoPlayer 
-            src="https://player.vimeo.com/video/1143175432?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479" 
-            title="הכשרת תקשור עם אביב אפרת 6" 
+            src="https://www.youtube.com/embed/ZXSiDk6It4w" 
+            title="דוגמה נוספת לחיבור רוחני" 
+            isYouTube
           />
       </Section>
 
