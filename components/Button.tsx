@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 interface ButtonProps {
   text?: string;

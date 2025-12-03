@@ -6,7 +6,6 @@ import {
   Lightbulb, 
   Music, 
   Brain, 
-  ChevronDown, 
   CheckCircle2,
   Users,
   Feather,
