@@ -135,16 +135,21 @@ function App() {
                 />
              </div>
              
-             <p className="mt-6 text-spiritual-200 font-medium text-lg flex items-center justify-center gap-2 opacity-80">
-                צפו בפתיח וחוו את האנרגיה של התקשור כבר מהרגע הראשון
-                <ArrowDown className="w-4 h-4 text-gold-400 animate-bounce" />
-             </p>
+             <div className="mt-6 flex justify-center">
+               <a 
+                 href="#for-whom" 
+                 className="text-spiritual-200 font-medium text-lg flex items-center gap-2 opacity-80 hover:opacity-100 transition-all hover:text-white cursor-pointer group-link"
+               >
+                  צפו בפתיח וחוו את האנרגיה של התקשור כבר מהרגע הראשון
+                  <ArrowDown className="w-4 h-4 text-gold-400 animate-bounce group-link-hover:text-gold-300" />
+               </a>
+             </div>
           </div>
         </div>
       </div>
 
       {/* For Whom Section */}
-      <Section className="relative">
+      <Section id="for-whom" className="relative">
         <div className="glass-card-dark rounded-3xl p-8 md:p-16 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-spiritual-500 to-transparent opacity-50"></div>
           
