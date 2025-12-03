@@ -109,7 +109,7 @@ function App() {
             <span>וובינר תקשור - הצעד הראשון אל עולם הידיעה הפנימית</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold leading-[1.1] pb-6 mb-2">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-sans font-bold leading-[1.1] pb-6 mb-2">
             <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]">לחזור אל מה</span><br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-spiritual-300 via-white to-spiritual-300 text-glow">שתמיד היה שלך</span>
           </h1>
