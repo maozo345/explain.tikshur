@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>וובינר תקשור - אביב אפרת</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              deep: {
+                950: '#0a0514', // Main bg
+                900: '#150a26',
+                800: '#220f3f',
+                700: '#341a5b',
+              },
+              spiritual: {
+                50: '#f4f0ff',
+                100: '#ebdffc',
+                200: '#d7bff9',
+                300: '#c49ff5',
+                400: '#a960ee', // Highlight purple
+                500: '#9135e0',
+                600: '#7a22c9',
+              },
+              gold: {
+                100: '#fff9e6',
+                300: '#ffdf80',
+                400: '#ffc107', // Button base
+                500: '#ff9800', // Button gradient end
+                600: '#e68900',
+                glow: '#ffb700',
+              }
+            },
+            fontFamily: {
+              sans: ['Assistant', 'sans-serif'],
+              serif: ['Frank Ruhl Libre', 'serif'],
+            },
+            animation: {
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 8s ease-in-out infinite',
+              'float-delayed': 'float 8s ease-in-out 4s infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-15px)' },
+              }
+            },
+            backgroundImage: {
+              'hero-glow': 'radial-gradient(circle at 50% 0%, rgba(120, 50, 255, 0.25) 0%, rgba(10, 5, 20, 0) 70%)',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #0a0514;
+        color: #fff;
+      }
+      .glass-card-dark {
+        background: rgba(30, 20, 50, 0.6);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+      }
+      .text-glow {
+        text-shadow: 0 0 20px rgba(169, 96, 238, 0.6);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-deep-950 text-white antialiased selection:bg-gold-400 selection:text-deep-950">
+    <div id="root"></div>
+  </body>
+</html>
