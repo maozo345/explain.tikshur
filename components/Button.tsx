@@ -8,6 +8,7 @@ interface ButtonProps {
   onClick?: () => void;
 }
 
+// Call to Action Button
 export const CTAButton: React.FC<ButtonProps> = ({ 
   text = "תיאום שיחת הכרות", 
   className = "",

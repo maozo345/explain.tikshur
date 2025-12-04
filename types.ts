@@ -1,3 +1,4 @@
+// Type definitions for the application
 import { LucideIcon } from 'lucide-react';
 
 export interface VideoProps {

@@ -18,6 +18,7 @@ import { VideoPlayer } from './components/VideoPlayer';
 import { CTAButton } from './components/Button';
 import { FAQItem } from './types';
 
+// Main Application Component
 // Calendly Modal Component
 const CalendlyModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) => {
   useEffect(() => {
@@ -27,7 +28,7 @@ const CalendlyModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => vo
       script.async = true;
       document.body.appendChild(script);
       return () => {
-        // Cleanup script if needed, though usually fine to leave or manage carefully
+        // Cleanup script if needed
         if (document.body.contains(script)) {
           document.body.removeChild(script);
         }

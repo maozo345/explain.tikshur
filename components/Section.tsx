@@ -7,6 +7,7 @@ interface SectionProps {
   darker?: boolean;
 }
 
+// Layout Wrapper for Sections
 export const Section: React.FC<SectionProps> = ({ children, className = "", id, darker = false }) => {
   return (
     <section 
