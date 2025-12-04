@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.css'; // Import global styles
+// Styles handled by Tailwind CDN in index.html
 
 // Initialize application
 const rootElement = document.getElementById('root');
